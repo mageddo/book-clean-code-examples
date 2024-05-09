@@ -1,4 +1,4 @@
-package cleancode.chapter02_meaningful_names.add_meaningful_context.listing_2_1.after;
+package cleancode.chapter02_meaningful_names.add_meaningful_context.listing_2_2;
 
 public class GuessStatisticsMessage {
 

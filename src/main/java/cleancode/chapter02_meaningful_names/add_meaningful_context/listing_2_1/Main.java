@@ -1,4 +1,4 @@
-package cleancode.chapter02_meaningful_names.add_meaningful_context.listing_2_1.before;
+package cleancode.chapter02_meaningful_names.add_meaningful_context.listing_2_1;
 
 public class Main {
   private void printGuessStatistics(char candidate, int count) {
