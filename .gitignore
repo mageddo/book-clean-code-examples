@@ -1,0 +1,50 @@
+# Version: 2.0
+# https://gist.github.com/mageddo/0a77a179e1dc483679a23b83764ef0af#file-gitignore
+# Operating System Files
+
+*.DS_Store
+Thumbs.db
+
+# Build Files
+*.log
+bin
+target
+build/
+.gradle
+*.lock
+lib
+
+# Eclipse Project Files #
+
+.classpath
+.project
+.settings
+
+# IntelliJ IDEA Files #
+
+out
+*.iml
+*.ipr
+*.iws
+*.idea
+
+# Spring Bootstrap artifacts
+dependency-reduced-pom.xml
+README.html
+
+# Binaries
+*.so
+*.dll
+*.tgz
+*.tar
+*.tar.gz
+*.7z
+*.rar
+*.zip
+*.bz2
+*.tar.*
+
+# Misc
+*.old
+*.tmp
+*.orig
