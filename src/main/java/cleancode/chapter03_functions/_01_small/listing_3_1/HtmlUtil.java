@@ -1,4 +1,4 @@
-package cleancode.chapter03_functions.listing_3_1;
+package cleancode.chapter03_functions._01_small.listing_3_1;
 
 public class HtmlUtil {
   public static String testableHtml(

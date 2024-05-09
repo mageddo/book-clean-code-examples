@@ -1,7 +1,7 @@
-package cleancode.chapter03_functions.listing_3_2;
+package cleancode.chapter03_functions._01_small.listing_3_2;
 
-import cleancode.chapter03_functions.listing_3_1.HtmlUtil.PageData;
-import cleancode.chapter03_functions.listing_3_1.HtmlUtil.WikiPage;
+import cleancode.chapter03_functions._01_small.listing_3_1.HtmlUtil.PageData;
+import cleancode.chapter03_functions._01_small.listing_3_1.HtmlUtil.WikiPage;
 
 public class HtmlUtil {
   public static String renderPageWithSetupsAndTeardowns(

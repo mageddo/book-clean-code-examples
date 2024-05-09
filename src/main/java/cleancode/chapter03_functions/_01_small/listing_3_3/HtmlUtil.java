@@ -1,6 +1,6 @@
-package cleancode.chapter03_functions.listing_3_3;
+package cleancode.chapter03_functions._01_small.listing_3_3;
 
-import cleancode.chapter03_functions.listing_3_1.HtmlUtil.PageData;
+import cleancode.chapter03_functions._01_small.listing_3_1.HtmlUtil.PageData;
 
 public class HtmlUtil {
   public static String renderPageWithSetupsAndTeardowns(PageData pageData, boolean isSuite) throws Exception {

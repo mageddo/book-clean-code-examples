@@ -1,4 +1,4 @@
-package cleancode.chapter03_functions.listing_3_4;
+package cleancode.chapter03_functions._02_switch_statements.listing_3_4;
 
 import cleancode.chapter03_functions.support.Employee;
 import cleancode.chapter03_functions.support.InvalidEmployeeType;
