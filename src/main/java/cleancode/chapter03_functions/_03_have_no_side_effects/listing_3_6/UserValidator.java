@@ -1,4 +1,4 @@
-package cleancode.chapter03_functions._03_have_no_side_effects;
+package cleancode.chapter03_functions._03_have_no_side_effects.listing_3_6;
 
 import cleancode.chapter03_functions.support.Cryptographer;
 import cleancode.chapter03_functions.support.Session;

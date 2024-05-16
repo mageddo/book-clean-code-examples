@@ -1,5 +1,10 @@
 package cleancode.chapter03_functions._01_small.listing_3_1;
 
+import cleancode.chapter03_functions.support.PageCrawlerImpl;
+import cleancode.chapter03_functions.support.PathParser;
+import cleancode.chapter03_functions.support.WikiPage;
+import cleancode.chapter03_functions.support.WikiPagePath;
+
 public class HtmlUtil {
   public static String testableHtml(
     PageData pageData,
@@ -89,33 +94,9 @@ public class HtmlUtil {
     }
   }
 
-  public  static class WikiPage {
-    public PageCrawlerImpl getPageCrawler() {
-      throw new UnsupportedOperationException();
-    }
-  }
-
-  public  static class PageCrawlerImpl {
-    public static WikiPage getInheritedPage(String suiteSetupName, WikiPage wikiPage) {
-      throw new UnsupportedOperationException();
-    }
-
-    public WikiPagePath getFullPath(WikiPage suiteSetup) {
-      throw new UnsupportedOperationException();
-    }
-  }
-
   public  static class SuiteResponder {
     public static final String  SUITE_SETUP_NAME = null;
     public static final String SUITE_TEARDOWN_NAME = null;
   }
 
-  public  static class WikiPagePath {
-  }
-
-  public static class PathParser {
-    public static String render(WikiPagePath pagePath) {
-      return null;
-    }
-  }
 }
