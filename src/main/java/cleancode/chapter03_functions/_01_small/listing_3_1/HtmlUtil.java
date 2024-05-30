@@ -4,6 +4,7 @@ import cleancode.chapter03_functions.support.PageCrawlerImpl;
 import cleancode.chapter03_functions.support.PathParser;
 import cleancode.chapter03_functions.support.WikiPage;
 import cleancode.chapter03_functions.support.WikiPagePath;
+import cleancode.chapter09_unit_tests._01_cleantests.support.WikiPageProperties;
 
 public class HtmlUtil {
   public static String testableHtml(
@@ -91,6 +92,10 @@ public class HtmlUtil {
 
     public String getHtml() {
       throw new UnsupportedOperationException();
+    }
+
+    public WikiPageProperties getProperties() {
+      return null;
     }
   }
 
